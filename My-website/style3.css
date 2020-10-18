@@ -1,0 +1,102 @@
+*{
+  font-family: 'Lato', sans-serif;
+}
+
+.background{
+    position: absolute;
+    background-color: #2a93d8;
+    height: 400px;
+    width: 100%;
+    text-align: center;
+}
+.text{
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.message{
+    text-align: center;
+    justify-content: center;
+}
+.button3{
+    height: 35px;
+    width:100px;
+    background-color: white;
+    color: #2a93d8;
+    border: none;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+.expertise{
+    position: relative;
+    background-color: white;
+    height:fit-content;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 300px;
+    box-shadow: 10px 10px 20px #f0f0f0;
+    border-radius: 3px;
+    margin-bottom: 40px;
+    padding-bottom: 50px;
+}
+.icon{
+    margin-top: 35px;
+    text-align: center;
+}
+
+.heading{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 40px;
+    padding: 30px;
+}
+.field-text{
+    width: 70%;
+    text-align: center;
+    color: #777777;
+    margin-left: auto;
+    margin-right: auto;
+}
+.software{
+    color: #2a93d8;
+    text-align: center;
+
+}
+.button1 {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color:#2a93d8;
+    cursor: pointer;
+    margin-top: 60px;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+.get-in-touch{
+    text-align: center;
+}
+
+
+.language{
+    color: #2a93d8;
+    text-align: center;
+    margin-top: 25px;
+    height: 150px;
+}
+.leave{
+    color: white;
+    font-size: 40px;
+    margin: 5%;
+}
+
+
+

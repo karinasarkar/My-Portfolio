@@ -1,0 +1,254 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+.icon{
+    color: #777777;
+    font-size: 15px;
+}
+
+#about-row{
+    margin-top: 40px;
+}
+
+.about-img{
+    position: absolute;
+    margin-left: 30px;
+}
+.about{
+    position: relative;
+    margin-left: 30%;
+    line-height: 28px;
+    width: 60%;
+}
+.social{
+    margin-left: 30%;
+    line-height: 20px;
+    margin-top: 40px;
+}
+span{
+    margin:5px;
+}
+.button1 {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color:#2a93d8;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+.button2 {
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left:0%;
+    background-color:#2a93d8;
+    cursor: pointer;
+    margin-top: 25px;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+#quali-row{
+    margin-top: 150px;
+}
+.qual-head{
+    margin-bottom: 20px;
+}
+.qualification{
+    position: absolute;
+    width: 45%;
+    margin-left: 10%;
+    line-height: 28px;
+}
+.certificate{
+    position: relative;
+    margin-left: 60%;
+}
+
+.lisence{
+    margin-top: 40px;
+    
+}
+.lisence-head{
+    font-size: 30px;
+}
+.cl1{
+    color: #777777;
+}
+.cl2{
+    color: #2a93d8;
+    font-style: italic;
+}
+
+#footer{
+    height:400px;
+    margin-top: 70px;
+    background-color:#333333
+    
+}
+.learn-more{
+    position: relative;
+    padding-top: 80px;
+    margin-left: 50%;
+    width: 50%;
+    color: white;
+    padding-top: 10%;
+    
+}
+.learn-content{
+    color:#777777;
+    line-height: 28px;
+    margin-bottom: 0px;
+    width:fit-content;
+}
+#footer{
+    background-color: #333333;
+    height: fit-content;
+    text-align: left;
+    padding-top:80px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+
+}
+.white{
+    color: white;
+    font-weight: 200;
+    
+}
+.footer-end{
+    text-align: right;
+    margin-top: 70px;
+}
+.f-name{
+    color:#178af3;
+}
+.illustration{
+    position: absolute;
+    padding-top: 8%;
+    margin-left: 4%;
+}
+.illus{
+    width:450px;
+    height:284px;
+}
+@media (max-width:1200px){
+    .about-img{
+        position: static;
+        margin:auto;
+        text-align: center;
+    }
+    .about{
+        position: static;
+        margin-top:10%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10%;
+        width: 70%;
+        text-align: center;
+    }
+    
+    h1{
+        text-align: center;
+    }
+    .get-in-touch{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .button1 {
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    .social{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .qualification{
+        position: static;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 28px;
+        text-align: center;
+    }
+    .certificate{
+        position: static;
+        margin: 10% 20%;
+    }
+    .cl1 ,.cl2{
+        text-align: center;
+    }
+    .illustration{
+        position: static;
+        padding-top: 8%;
+        margin-left: 4%;
+        text-align: center;
+    }
+    .illus{
+        width:350px;
+        height:284px;
+    }
+    .footer-end{
+        text-align: center;
+    }
+    .learn-more{
+
+        color: white;
+        padding-top: 10%;
+        width: 100%;
+        
+    }
+    .button2 {
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        background-color:#2a93d8;
+        cursor: pointer;
+        margin-top: 25px;
+        border-radius: 5px;
+        font-weight: bold;
+    
+    }
+
+    /*
+    
+    .about-img{
+        position: absolute;
+        margin-left: 30px;
+    }
+    .about{
+        position: relative;
+        margin-left: 30%;
+        line-height: 28px;
+        width: 60%;
+    }
+    .social{
+        margin-left: 30%;
+        line-height: 20px;
+        margin-top: 40px;
+    } */
+    @media (max-width:500px){
+        .certificate{
+            margin:5%
+        }
+    }
+    
+
+}
+
+    
