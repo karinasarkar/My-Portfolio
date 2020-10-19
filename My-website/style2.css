@@ -92,18 +92,19 @@ span{
 }
 
 #footer{
-    height:400px;
+    height: fit-content;
     margin-top: 70px;
-    background-color:#333333
+    background-color:#333333;
+    
+    padding-top:80px 200px 50px;
+
     
 }
 .learn-more{
-    position: relative;
-    padding-top: 80px;
-    margin-left: 50%;
+    float: right;
     width: 50%;
     color: white;
-    padding-top: 10%;
+    padding: 10%;
     
 }
 .learn-content{
@@ -112,15 +113,7 @@ span{
     margin-bottom: 0px;
     width:fit-content;
 }
-#footer{
-    background-color: #333333;
-    height: fit-content;
-    text-align: left;
-    padding-top:80px;
-    padding-right: 200px;
-    padding-bottom: 50px;
 
-}
 .white{
     color: white;
     font-weight: 200;
@@ -134,9 +127,9 @@ span{
     color:#178af3;
 }
 .illustration{
-    position: absolute;
     padding-top: 8%;
     margin-left: 4%;
+    display: inline-block;
 }
 .illus{
     width:450px;
@@ -193,9 +186,6 @@ span{
         text-align: center;
     }
     .illustration{
-        position: static;
-        padding-top: 8%;
-        margin-left: 4%;
         text-align: center;
     }
     .illus{
@@ -208,7 +198,7 @@ span{
     .learn-more{
 
         color: white;
-        padding-top: 10%;
+        padding: 10%;
         width: 100%;
         
     }
@@ -225,23 +215,7 @@ span{
     
     }
 
-    /*
-    
-    .about-img{
-        position: absolute;
-        margin-left: 30px;
-    }
-    .about{
-        position: relative;
-        margin-left: 30%;
-        line-height: 28px;
-        width: 60%;
-    }
-    .social{
-        margin-left: 30%;
-        line-height: 20px;
-        margin-top: 40px;
-    } */
+   
     @media (max-width:500px){
         .certificate{
             margin:5%
